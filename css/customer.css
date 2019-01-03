@@ -1,0 +1,35 @@
+<style>
+/* Rules for icon sizes: */
+.material-icons.md-18 {
+    font-size: 18px;
+}
+.material-icons.md-24 {
+    font-size: 24px;
+} /* Default */
+.material-icons.md-36 {
+    font-size: 36px;
+}
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+#myBtn {
+    display: none; /* 默认隐藏 */
+    position: fixed; 
+   bottom: 20px;
+    right: 30px; 
+    z-index: 99; 
+    border: none;
+    outline: none; 
+    background-color: darkgray; /* 设置背景颜色，你可以设置自己想要的颜色或图片 */
+    color: white; /* 文本颜色 */
+    cursor: pointer; 
+     
+    border-radius: 10px; /* 圆角 */
+}
+ 
+#myBtn:hover {
+    background-color: royalblue;
+}
+
+</style>
